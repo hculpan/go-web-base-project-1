@@ -38,5 +38,5 @@ func LoginPostHandler(w http.ResponseWriter, r *http.Request) {
 	})
 
 	// Redirect to the welcome page upon successful login
-	http.Redirect(w, r, "/welcome", http.StatusSeeOther)
+	http.Redirect(w, r, "/home", http.StatusSeeOther)
 }
